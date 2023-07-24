@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -55,6 +56,18 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  static const platform = MethodChannel('live.flowy.commz');
+
+  @override
+  void initState() {
+    super.initState();
+
+    platform.invokeMethod('sayHello').then((value) {
+      print("invoked sayHello from flutter frontend");
+      print(value);
+    });
+  }
+
   int _counter = 0;
 
   void _incrementCounter() {
