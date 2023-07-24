@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter",
+  "command": "/usr/bin/c++  -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -g -fPIC -fvisibility=hidden -Wall -Werror -o CMakeFiles/flutter_wrapper_plugin.dir/ephemeral/cpp_client_wrapper/core_implementations.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter",
+  "command": "/usr/bin/c++  -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -g -fPIC -fvisibility=hidden -Wall -Werror -o CMakeFiles/flutter_wrapper_plugin.dir/ephemeral/cpp_client_wrapper/standard_codec.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter",
+  "command": "/usr/bin/c++  -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -g -fPIC -fvisibility=hidden -Wall -Werror -o CMakeFiles/flutter_wrapper_plugin.dir/ephemeral/cpp_client_wrapper/plugin_registrar.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter",
+  "command": "/usr/bin/c++  -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -g -Wall -Werror -o CMakeFiles/flutter_wrapper_app.dir/ephemeral/cpp_client_wrapper/core_implementations.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter",
+  "command": "/usr/bin/c++  -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -g -Wall -Werror -o CMakeFiles/flutter_wrapper_app.dir/ephemeral/cpp_client_wrapper/standard_codec.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter",
+  "command": "/usr/bin/c++  -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -g -Wall -Werror -o CMakeFiles/flutter_wrapper_app.dir/ephemeral/cpp_client_wrapper/flutter_engine.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter",
+  "command": "/usr/bin/c++  -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -g -Wall -Werror -o CMakeFiles/flutter_wrapper_app.dir/ephemeral/cpp_client_wrapper/flutter_view_controller.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/runner",
+  "command": "/usr/bin/c++ -DFLUTTER_TARGET_BACKEND_WAYLAND -I/home/talksik/Code/flutter_embedded_with_platform/elinux -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -g -Wall -Werror -o CMakeFiles/flutter_embedded_with_platform.dir/flutter_window.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/runner/flutter_window.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/runner/flutter_window.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/runner",
+  "command": "/usr/bin/c++ -DFLUTTER_TARGET_BACKEND_WAYLAND -I/home/talksik/Code/flutter_embedded_with_platform/elinux -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -g -Wall -Werror -o CMakeFiles/flutter_embedded_with_platform.dir/main.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/runner/main.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/runner/main.cc"
+},
+{
+  "directory": "/home/talksik/Code/flutter_embedded_with_platform/elinux/runner",
+  "command": "/usr/bin/c++ -DFLUTTER_TARGET_BACKEND_WAYLAND -I/home/talksik/Code/flutter_embedded_with_platform/elinux -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral -I/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/ephemeral/cpp_client_wrapper/include -g -Wall -Werror -o CMakeFiles/flutter_embedded_with_platform.dir/__/flutter/generated_plugin_registrant.cc.o -c /home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/generated_plugin_registrant.cc",
+  "file": "/home/talksik/Code/flutter_embedded_with_platform/elinux/flutter/generated_plugin_registrant.cc"
+}
+]

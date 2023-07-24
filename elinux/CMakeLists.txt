@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # stop cmake from taking make from CMAKE_SYSROOT
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 project(runner LANGUAGES CXX)
@@ -96,8 +99,10 @@ install(CODE "
 install(DIRECTORY "${PROJECT_BUILD_DIR}/${FLUTTER_ASSET_DIR_NAME}"
   DESTINATION "${INSTALL_BUNDLE_DATA_DIR}" COMPONENT Runtime)
 
+
 # Install the AOT library on non-Debug builds only.
 if(NOT CMAKE_BUILD_TYPE MATCHES "Debug")
   install(FILES "${AOT_LIBRARY}" DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
     COMPONENT Runtime)
 endif()
+
